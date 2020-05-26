@@ -1,3 +1,7 @@
-def introduction(name = "Aimee", language = "Ruby")
+def introduction(name = "Aimee")
+  puts "Hi, my name is #{name}."
+end
+
+def introduction_with_language(name = "Aimee", language = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
